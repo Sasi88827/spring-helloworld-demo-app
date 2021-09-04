@@ -12,6 +12,7 @@ public class SpringHelloworldDemoAppApplication {
 
 	@RequestMapping(path = "/helloWorld", method = RequestMethod.GET)
 	public String helloWorld() {
+		System.out.println("Jesus Never Fails! HelloWorld - My First log message");
 		return "Jesus Never Fails! HelloWorld";
 	}
 	
